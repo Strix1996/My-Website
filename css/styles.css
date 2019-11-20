@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: url("../images/website-background-black.jpg");
+  background-size: 100% auto;
+}
+
+div.container {
+  height: auto;
+  font-size: 4em;
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
