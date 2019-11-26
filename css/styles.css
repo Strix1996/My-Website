@@ -10,15 +10,162 @@ html {
 }
 
 body {
-  background: url("../images/website-background-black.jpg");
+  background: #ff3300;
   background-size: 100% auto;
+  position: relative;
 }
 
-div.container {
-  height: auto;
-  font-size: 4em;
-  color: #fff;
-  position: absolute;
-  top: 40%;
-  left: 30%;
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+div.container #initials {
+    height: auto;
+    font-size: 4em;
+    position: absolute;
+    color: #fff;
+    font-family: 'Alatsi', sans-serif;
+  }
+
+div.container #tagline {
+    height: auto;
+    font-size: 1.2em;
+    position: absolute;
+    color: #fff;
+    font-family: 'Alatsi', sans-serif;
+    top: 80px;
+  }
+
+div.container #contacts {
+    height: auto;
+    font-size:2em;
+    position: absolute;
+    color: #fff;
+    font-family: 'Alatsi', sans-serif;
+    top: 250px;
+    line-height: 18px;
+    text-decoration: none;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+div.container #initials {
+    height: auto;
+    font-size: 5em;
+    position: absolute;
+    color: #fff;
+    font-family: 'Alatsi', sans-serif;
+  }
+
+div.container #tagline {
+    height: auto;
+    font-size: 1.2em;
+    position: absolute;
+    color: #fff;
+    font-family: 'Alatsi', sans-serif;
+    top: 105px;
+  }
+
+div.container #contacts {
+    height: auto;
+    font-size:2em;
+    position: absolute;
+    color: #fff;
+    font-family: 'Alatsi', sans-serif;
+    top: 250px;
+    line-height: 18px;
+    text-decoration: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+div.container #initials {
+    height: auto;
+    font-size: 6em;
+    position: absolute;
+    color: #fff;
+    font-family: 'Alatsi', sans-serif;
+  }
+
+div.container #tagline {
+    height: auto;
+    font-size: 1.2em;
+    position: absolute;
+    color: #fff;
+    font-family: 'Alatsi', sans-serif;
+    top: 125px;
+  }
+
+div.container #contacts {
+    height: auto;
+    font-size:2em;
+    position: absolute;
+    color: #fff;
+    font-family: 'Alatsi', sans-serif;
+    top: 250px;
+    line-height: 18px;
+    text-decoration: none;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+div.container #initials {
+    height: auto;
+    font-size: 7em;
+    position: absolute;
+    color: #fff;
+    font-family: 'Alatsi', sans-serif;
+  }
+
+div.container #tagline {
+    height: auto;
+    font-size: 1.2em;
+    position: absolute;
+    color: #fff;
+    font-family: 'Alatsi', sans-serif;
+    top: 145px;
+  }
+
+div.container #contacts {
+    height: auto;
+    font-size:2em;
+    position: absolute;
+    color: #fff;
+    font-family: 'Alatsi', sans-serif;
+    top: 250px;
+    line-height: 18px;
+    text-decoration: none;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+div.container #initials {
+    height: auto;
+    font-size: 8em;
+    position: absolute;
+    color: #fff;
+    font-family: 'Alatsi', sans-serif;
+  }
+
+div.container #tagline {
+    height: auto;
+    font-size: 1.2em;
+    position: absolute;
+    color: #fff;
+    font-family: 'Alatsi', sans-serif;
+    top: 165px;
+  }
+
+div.container #contacts {
+    height: auto;
+    font-size:2em;
+    position: absolute;
+    color: #fff;
+    font-family: 'Alatsi', sans-serif;
+    top: 250px;
+    line-height: 18px;
+    text-decoration: none;
+  }
 }
