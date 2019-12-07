@@ -3,7 +3,6 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: 'Bebas Neue', cursive;
-  font-family: 'Alatsi', sans-serif;
 }
 
 html {
@@ -23,6 +22,7 @@ div.container #initials {
     font-size: 4em;
     position: absolute;
     color: #fff;
+    font-family: 'Alatsi', sans-serif;
   }
 
 div.container #tagline {
@@ -30,6 +30,7 @@ div.container #tagline {
     font-size: 1.2em;
     position: absolute;
     color: #fff;
+    font-family: 'Alatsi', sans-serif;
     top: 80px;
   }
 
@@ -38,6 +39,7 @@ div.container #contacts {
     font-size:2em;
     position: absolute;
     color: #fff;
+    font-family: 'Alatsi', sans-serif;
     top: 250px;
     line-height: 18px;
     text-decoration: none;
@@ -51,6 +53,7 @@ div.container #initials {
     font-size: 5em;
     position: absolute;
     color: #fff;
+    font-family: 'Alatsi', sans-serif;
   }
 
 div.container #tagline {
@@ -58,6 +61,7 @@ div.container #tagline {
     font-size: 1.2em;
     position: absolute;
     color: #fff;
+    font-family: 'Alatsi', sans-serif;
     top: 105px;
   }
 
@@ -66,6 +70,7 @@ div.container #contacts {
     font-size:2em;
     position: absolute;
     color: #fff;
+    font-family: 'Alatsi', sans-serif;
     top: 250px;
     line-height: 18px;
     text-decoration: none;
@@ -79,6 +84,7 @@ div.container #initials {
     font-size: 6em;
     position: absolute;
     color: #fff;
+    font-family: 'Alatsi', sans-serif;
   }
 
 div.container #tagline {
@@ -86,6 +92,7 @@ div.container #tagline {
     font-size: 1.2em;
     position: absolute;
     color: #fff;
+    font-family: 'Alatsi', sans-serif;
     top: 125px;
   }
 
@@ -94,6 +101,7 @@ div.container #contacts {
     font-size:2em;
     position: absolute;
     color: #fff;
+    font-family: 'Alatsi', sans-serif;
     top: 250px;
     line-height: 18px;
     text-decoration: none;
@@ -107,6 +115,7 @@ div.container #initials {
     font-size: 7em;
     position: absolute;
     color: #fff;
+    font-family: 'Alatsi', sans-serif;
   }
 
 div.container #tagline {
@@ -114,6 +123,7 @@ div.container #tagline {
     font-size: 1.2em;
     position: absolute;
     color: #fff;
+    font-family: 'Alatsi', sans-serif;
     top: 145px;
   }
 
@@ -122,6 +132,7 @@ div.container #contacts {
     font-size:2em;
     position: absolute;
     color: #fff;
+    font-family: 'Alatsi', sans-serif;
     top: 250px;
     line-height: 18px;
     text-decoration: none;
@@ -135,6 +146,7 @@ div.container #initials {
     font-size: 8em;
     position: absolute;
     color: #fff;
+    font-family: 'Alatsi', sans-serif;
   }
 
 div.container #tagline {
@@ -142,6 +154,7 @@ div.container #tagline {
     font-size: 1.2em;
     position: absolute;
     color: #fff;
+    font-family: 'Alatsi', sans-serif;
     top: 165px;
   }
 
@@ -150,6 +163,7 @@ div.container #contacts {
     font-size:2em;
     position: absolute;
     color: #fff;
+    font-family: 'Alatsi', sans-serif;
     top: 250px;
     line-height: 18px;
     text-decoration: none;
