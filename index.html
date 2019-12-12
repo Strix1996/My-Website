@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="../js/script.js" charset="utf-8"></script>
     <title>Will Banting</title>
     <meta name="Will Banting" content="Will Banting's Website">
   </head>
@@ -14,23 +16,41 @@
     <header id="headerBar">
       <nav class="container nav navbar-nav">
         <div id="buttons" class="row justify-content-end">
-          <button type="button" name="button" class="btn btn-outline-light">Home</button>
-          <button type="button" name="button" class="btn btn-outline-light">About</button>
-          <button type="button" name="button" class="btn btn-outline-light">Socials</button>
+          <!-- <button type="button" name="button" class="btn btn-outline-light">Home</button> -->
+          <button type="button" name="button" class="btn btn-outline-light showTechStack">Show/Hide Tech Stack</button>
+          <!-- <button type="button" name="button" class="btn btn-outline-light showSocials">Socials</button> -->
         </div>
       </nav>
     </header>
     <main id="mainContent">
     <div class="container">
       <div class="row">
-        <div id="contentText" class="col-10">
+        <div id="contentText" class="col-10 title">
           <p>HELLO I'M WILL</p>
           <p>A Frontend Web Developer</p>
         </div>
       </div>
       <div class="row">
-        
+        <div id="aboutBox" class="col-10 align-self-center hidden tech">
+          <p>Will Banting is a Frontend Developer in training, working with, and learning, a variety of technologies including;</p>
+          <p>
+            <img class="techStack" src="../svgs/brands/html5.svg" alt="">
+            <img class="techStack" src="../svgs/brands/css3.svg" alt="">
+            <img class="techStack" src="../svgs/brands/js.svg" alt="">
+            <img class="techStack" src="../svgs/brands/bootstrap.svg" alt="">
+            <img class="techStack" src="../svgs/brands/github.svg" alt="">
+            <img class="techStack" src="../svgs/brands/node-js.svg" alt="">
+            <img class="techStack" src="../svgs/brands/git.svg" alt="">
+            <img class="techStack" src="../svgs/brands/aws.svg" alt="">
+            <img class="techStack" src="../svgs/brands/font-awesome.svg" alt="">
+          </p>
+        </div>
       </div>
+      <!-- <div class="row">
+        <div id="socialsBox" class="col-10 align-self-center hidden socials">
+          <p>Socials Box</p>
+        </div>
+      </div> -->
     </div>
   </main>
   <footer id="footerBar">

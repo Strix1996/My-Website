@@ -9,8 +9,12 @@ html {
 }
 body {
   background-image: url("../images/mainBackground.png");
-  background-size: 100%;
+  background-size: cover;
   position: relative;
+  background-attachment: fixed;
+}
+.hidden {
+  display: none;
 }
 
 /* NOTE: header */
@@ -19,12 +23,34 @@ body {
   font-size: 1.1em;
 }
 
+
 /* NOTE: main */
 #contentText {
   color: #FFF;
   font-size: 4.5em;
   margin: 150px 0 0 0;
 }
+
+#aboutBox, #socialsBox {
+  width: 1140px;
+  height: 100%;
+  border-radius: 25px;
+  position: absolute;
+  font-size: 2em;
+  color: #FFF;
+  text-align: center;
+  margin-top: 150px;
+}
+.techStack {
+  min-width: 200px;
+  min-height: 200px;
+  max-width: 200px;
+  max-height: 200px;
+  padding: 15px;
+  background-color: #3F1C64;
+  border-radius: 60px;
+}
+
 
 /* NOTE: footer */
 #footerBar {
