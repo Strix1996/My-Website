@@ -2,88 +2,58 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Alatsi', sans-serif;
-  color: #613DDE;
+  font-family: 'Lilita One', cursive;
 }
 html {
   font-size: 16px;
 }
 body {
-/*  background: #29294C;*/
-  background: #13163E;
-  max-width: auto;
-  max-height: auto;
+  background-image: url("../images/mainBackground.png");
+  background-size: 100%;
   position: relative;
 }
-#header-nav {
-  background: #613DDE;
-  height: 80px;
-  width: auto;
-  }
-#center-box {
-  background: #613DDE;
-  height: 300px;
-  width: auto;
-  margin: 15% 0% auto 0%;
-  border-radius: 20px 45px 20px 45px;
+
+/* NOTE: header */
+.btn {
+  margin: 15px;
+  font-size: 1.1em;
 }
-#center-content {
-  color: #fff;
+
+/* NOTE: main */
+#contentText {
+  color: #FFF;
+  font-size: 4.5em;
+  margin: 150px 0 0 0;
 }
-#linkedIn #gitHub #stackShare {
-  background-size: 20px 20px;
+
+/* NOTE: footer */
+#footerBar {
+
 }
-#linkedIn {
-  background: url("./svgs/brands/linkedin-in.svg");
-}
-#gitHub {
-  background: url("./svgs/brands/github.svg");
-}
-#stackShare {
-  background: url("./svgs/solid/poop.svg");
-}
+
+/* NOTE: media queries */
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-#center-content {
-    font-size: 3em;
-  }
-  .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 6px;
-    background-color: #13163E;
-    margin: 6px 15px;
-    transition: 0.4s;
-  }
-#hamburger-menu {
-  margin: 20px 0px 0px 5px;
-  }
+
 }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-#center-content {
-    font-size: 3em;
-  }
+
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-#center-content {
-    font-size: 4em;
-  }
+
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-#center-content {
-    font-size: 5em;
-  }
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-#center-content {
-    font-size: 5em;
-  }
+
 }
